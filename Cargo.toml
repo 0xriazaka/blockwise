@@ -1,0 +1,9 @@
+[package]
+name = "block-wise"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reth = { git = "https://github.com/paradigmxyz/reth", branch = "main" }
+tokio = { version = "1.28", features = ["full"] }
+eyre = "0.6"
